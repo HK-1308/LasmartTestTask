@@ -1,0 +1,19 @@
+﻿{
+  "files": [
+    "file.ts"
+  ],
+  "compilerOptions": {
+    "compilerOptions": {
+      "noImplicitAny": true,
+      "noEmitOnError": true,
+      "strictNullChecks": true,
+
+      "outFile": "app.js",
+
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    }
+  }
+}
+
