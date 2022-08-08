@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\js\file.ts" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="jquery.TypeScript.DefinitelyTyped" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.17">
@@ -27,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="wwwroot\js\file.ts" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties wwwroot_4js_4tsconfig_1json__JsonSchema="https://json.schemastore.org/vim-addon-info.json" /></VisualStudio></ProjectExtensions>

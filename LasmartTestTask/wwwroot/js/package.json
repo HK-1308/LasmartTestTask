@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@types/jquery": "^3.5.14"
-  },
-  "dependencies": {
-    "jquery-ts": "^2.1.1",
-    "konva": "^8.3.11"
-  }
-}
